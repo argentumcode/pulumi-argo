@@ -1,6 +1,0 @@
-input.ts
-bin
-dist/*.ts
-dist/*.js
-dist/*.js.map
-node_modules/
