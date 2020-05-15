@@ -1,6 +1,6 @@
 {
   "name": "pulumi-argo",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Utility to manipulate argo from Pulumi",
   "author": "ArgentumCode K.K.",
   "license": "MIT",

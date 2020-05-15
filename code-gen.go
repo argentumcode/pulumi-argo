@@ -115,6 +115,7 @@ func main() {
 	GenerateCode(output, reflect.TypeOf(v1alpha1.WorkflowStep{}), false)
 	GenerateCode(output, reflect.TypeOf(v1alpha1.CronWorkflow{}), false)
 	GenerateCode(output, reflect.TypeOf(v1alpha1.WorkflowTemplate{}), false)
+	GenerateCode(output, reflect.TypeOf(v1alpha1.ClusterWorkflowTemplate{}), false)
 	fmt.Println(`import * as pulumi from '@pulumi/pulumi';`)
 	fmt.Println(`import {core, policy, meta} from "@pulumi/kubernetes/types/input";`)
 	for _, v := range output {

@@ -61,3 +61,23 @@ export class CronWorkflow extends apiextensions.CustomResource {
     );
   }
 }
+
+export type ClusterWorkflowTemplateArgs = input.ClusterWorkflowTemplate;
+
+export class ClusterWorkflowTemplate extends apiextensions.CustomResource {
+  constructor(
+    name: string,
+    args: ClusterWorkflowTemplateArgs,
+    opts?: pulumi.CustomResourceOptions
+  ) {
+    super(
+      name,
+      {
+        kind: "ClusterWorkflowTemplate",
+        apiVersion: "argoproj.io/v1alpha1",
+        ...args
+      },
+      opts
+    );
+  }
+}
