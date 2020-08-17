@@ -84,9 +84,9 @@
   integrity sha1-p3c2C1s5oaLlEG+OhY8v0tBgxXA=
 
 "@pulumi/kubernetes@latest":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@pulumi/kubernetes/-/kubernetes-2.2.0.tgz#3fd24f69608f65f08f3d565075fd4df3cd14fd56"
-  integrity sha512-1qbUD0kx5TWPykRd/WZw9g/RI2+JeatBSHALs58dGgclajLapjJiWrmbweQxEaDQ31O21RbixbDLcIWXPCenSg==
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/@pulumi/kubernetes/-/kubernetes-2.4.3.tgz#df97aa1c31064961dae4f385f14fb681535792f8"
+  integrity sha512-hL9SrIvqi93eUdWbAeSZm46F1kj7weSXvyW0VJq0sHLVX7qXebChtDmyaz6q17am4EIe5wPZHe63dOeGrCMe4w==
   dependencies:
     "@pulumi/pulumi" "^2.0.0"
     "@types/glob" "^5.0.35"
